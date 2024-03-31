@@ -1,0 +1,14 @@
+[Unit]
+Description=gowithdev Rust API
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/usr/bin/gowithdev-rsapi
+StandardOutput=append:/var/log/gowithdev-rsapi/output.log
+StandardError=append:/var/log/gowithdev-rsapi/error.log
+
+[Install]
+WantedBy=multi-user.target
