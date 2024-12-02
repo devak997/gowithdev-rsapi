@@ -23,6 +23,6 @@ chrono = "0.4.38"
 axum-extra = { version = "0.9.4", features = ["cookie"] }
 time = "0.3.36"
 tracing = "0.1.40"
-tracing-subscriber = "0.3.18"
+tracing-subscriber = "0.3.19"
 uuid = { version = "1.11.0", features = ["v4", "fast-rng", "macro-diagnostics"] }
 rust-s3 = "0.35.1"
