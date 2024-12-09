@@ -19,7 +19,7 @@ serde = "1.0.214"
 tower-http = { version = "0.6.1", features = ["cors", "trace", "fs"] }
 bcrypt = "0.16.0"
 jsonwebtoken = "9.3.0"
-chrono = "0.4.38"
+chrono = "0.4.39"
 axum-extra = { version = "0.9.4", features = ["cookie"] }
 time = "0.3.36"
 tracing = "0.1.40"
