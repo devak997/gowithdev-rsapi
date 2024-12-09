@@ -21,7 +21,7 @@ bcrypt = "0.16.0"
 jsonwebtoken = "9.3.0"
 chrono = "0.4.38"
 axum-extra = { version = "0.9.4", features = ["cookie"] }
-time = "0.3.36"
+time = "0.3.37"
 tracing = "0.1.40"
 tracing-subscriber = "0.3.18"
 uuid = { version = "1.11.0", features = ["v4", "fast-rng", "macro-diagnostics"] }
